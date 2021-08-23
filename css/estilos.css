@@ -1,6 +1,7 @@
 body
 {
-    color:crimson;
+    background: #1e1f24;
+    color:#333;
     text-align: left;
     font-family: "arial";
     font-size: 16px;
@@ -18,10 +19,16 @@ body
     padding: 0.5em;
 }
 
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
+}
+
 #cabecera #tagline
 {
     padding:0 0 0 1em;
-    font-weight:bold;
+    font-weight:normal;
     font-size: 0.8em;
 
 }
@@ -37,4 +44,9 @@ margin:0 auto;
 #conainer h1
 {
 font-size:20px;
+}
+#post
+{
+    background: white;
+    padding: 1em;
 }
